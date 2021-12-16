@@ -8,6 +8,7 @@
   border-collapse: collapse;
   background-color: #eeeeee;
   color: #fd7014;
+  font-weight: 600;
 }
 
 .user__name:hover {
