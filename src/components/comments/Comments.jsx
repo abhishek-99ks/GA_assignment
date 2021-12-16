@@ -10,12 +10,12 @@ const Comments = ({ post_id }) => {
 
   useEffect(() => {
     const fetchComments = async () => {
-      const res = await axios.get(`posts/${post_id}/comments` + search);
+      const res = await axios.get(`posts/${post_id}/comments`);
       setComments(res.data);
     };
 
     fetchComments();
-  }, [search]);
+  }, [post_id]);
 
   return (
     <div className="comments">
