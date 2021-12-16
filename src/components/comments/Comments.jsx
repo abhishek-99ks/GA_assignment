@@ -15,7 +15,7 @@ const Comments = ({ post_id }) => {
     };
 
     fetchComments();
-  }, [search]);
+  }, [post_id]);
 
   return (
     <div className="comments">
