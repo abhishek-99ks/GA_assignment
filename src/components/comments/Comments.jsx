@@ -6,7 +6,6 @@ import axios from "axios";
 
 const Comments = ({ post_id }) => {
   const [comments, setComments] = useState([]);
-  const { search } = useLocation();
 
   useEffect(() => {
     const fetchComments = async () => {
