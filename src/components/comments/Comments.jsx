@@ -1,7 +1,6 @@
 import "./comments.css";
 
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router";
 import axios from "axios";
 
 const Comments = ({ post_id }) => {
