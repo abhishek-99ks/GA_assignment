@@ -1,0 +1,10 @@
+.home__container {
+  display: flex;
+  max-width: 1200px;
+  padding: 20px;
+  position: relative;
+
+  margin: 0 auto;
+
+  /* background-color: ; */
+}

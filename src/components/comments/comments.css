@@ -1,0 +1,15 @@
+.comments {
+  padding: 10px;
+  color: black;
+}
+
+.comment__email {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.comment__body {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fd7014;
+}

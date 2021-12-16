@@ -1,0 +1,19 @@
+.user__name {
+  min-height: 20px;
+  margin-bottom: 2px;
+  padding: 10px;
+
+  border: none;
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  background-color: #eeeeee;
+  color: #fd7014;
+}
+
+.user__name:hover {
+  background-color: #222831;
+  border-bottom: 2px solid white;
+  transform: scale(1.03);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
